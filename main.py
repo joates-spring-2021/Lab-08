@@ -9,7 +9,7 @@ joates@fullerton.edu
 
 import random
 
-# Hangman class. Use this if you want. Or create your own
+# Hangman class.
 class Hangman:
     
     def __init__(self, word, triesAllowed):
@@ -41,7 +41,8 @@ class Hangman:
     def DrawGallows(self):
         """Optional: Return string representing state of gallows"""
         pass
-    
+
+# implement the logic of your game below
 if __name__=="__main__":
     # Read all the words from the hangman_words.txt file
     wordFile = open("hangman_words.txt", "r")
