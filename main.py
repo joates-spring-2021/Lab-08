@@ -27,14 +27,15 @@ class Hangman:
         pass
     
     def GetDisplayWord(self):
-        """Return the display word (with blanks where letters have not been guessed)"""
+        """Return the display word (with dashes where letters have not been guessed)
+        i.e. the word happy with only the letter 'p' guessed so far would be '--pp-'"""
         pass
     
     def GetLettersUsed(self):
         """Return a string with the list of letters that have been used"""
         pass
 
-    def DidIWin(self):
+    def GetGameResult(self):
         """Return True if all letters have been guessed. False otherwise"""
         pass
 
@@ -46,6 +47,8 @@ class Hangman:
 if __name__=="__main__":
     # Read all the words from the hangman_words.txt file
     wordFile = open("hangman_words.txt", "r")
+    wordFileText = wordFile.read()
+    wordFile.close()
     
     # Seed the random number generator with current system time
     random.seed()
