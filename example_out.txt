@@ -1,0 +1,235 @@
+First, here's an example of a loss.
+
+-----|
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+---
+Here's your word so far: --------
+You have 8 guesses left
+
+Guess a letter: w
+Too bad! Letters used: w-
+-----|
+ |   |
+ |
+ |
+ |
+ |
+ |
+ |
+---
+Here's your word so far: --------
+You have 7 guesses left
+
+Guess a letter: t
+Too bad! Letters used: w-t-
+-----|
+ |   |
+ |   0
+ |
+ |
+ |
+ |
+ |
+---
+Here's your word so far: --------
+You have 6 guesses left
+
+Guess a letter: y
+Too bad! Letters used: w-t-y-
+-----|
+ |   |
+ |   0
+ |  /
+ |
+ |
+ |
+ |
+---
+Here's your word so far: --------
+You have 5 guesses left
+
+Guess a letter: o
+Too bad! Letters used: w-t-y-o-
+-----|
+ |   |
+ |   0
+ |  /|
+ |
+ |
+ |
+ |
+---
+Here's your word so far: --------
+You have 4 guesses left
+
+Guess a letter: p
+Too bad! Letters used: w-t-y-o-p-
+-----|
+ |   |
+ |   0
+ |  /|\
+ |
+ |
+ |
+ |
+---
+Here's your word so far: --------
+You have 3 guesses left
+
+Guess a letter: k
+Too bad! Letters used: w-t-y-o-p-k-
+-----|
+ |   |
+ |   0
+ |  /|\
+ |   U
+ |
+ |
+ |
+---
+Here's your word so far: --------
+You have 2 guesses left
+
+Guess a letter: j
+Too bad! Letters used: w-t-y-o-p-k-j-
+-----|
+ |   |
+ |   0
+ |  /|\
+ |   U
+ |  /
+ |
+ |
+---
+Here's your word so far: --------
+You have 1 guesses left
+
+Guess a letter: h
+Too bad! Letters used: w-t-y-o-p-k-j-h-
+You lost.  The word was squirrel
+-----|
+ |   |
+ |   0
+ |  /|\
+ |   U
+ |  / \
+ |
+ |
+---
+
+This time I win!
+
+-----|
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+---
+Here's your word so far: --------
+You have 8 guesses left
+
+Guess a letter: s
+Good guess! Letters used: s-
+-----|
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+---
+Here's your word so far: s-------
+You have 8 guesses left
+
+Guess a letter: q
+Good guess! Letters used: s-q-
+-----|
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+---
+Here's your word so far: sq------
+You have 8 guesses left
+
+Guess a letter: u
+Good guess! Letters used: s-q-u-
+-----|
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+---
+Here's your word so far: squ-----
+You have 8 guesses left
+
+Guess a letter: i
+Good guess! Letters used: s-q-u-i-
+-----|
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+---
+Here's your word so far: squi----
+You have 8 guesses left
+
+Guess a letter: r
+Good guess! Letters used: s-q-u-i-r-
+-----|
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+---
+Here's your word so far: squirr--
+You have 8 guesses left
+
+Guess a letter: e
+Good guess! Letters used: s-q-u-i-r-e-
+-----|
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+---
+Here's your word so far: squirre-
+You have 8 guesses left
+
+Guess a letter: l
+Good guess! Letters used: s-q-u-i-r-e-l-
+Congratulations!  You won!! The word was squirrel
+-----|
+ |
+ |
+ |
+ |  \0/
+ |   |
+ |   U
+ |  / \
+---
